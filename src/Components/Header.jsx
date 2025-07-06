@@ -5,11 +5,11 @@ import { IoCartOutline, IoPersonOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <header className="w-full bg-white border-b shadow-sm">
+    <header className="w-full bg-white border-b shadow-sm ">
       <div className="flex items-center justify-between px-10 py-4 w-full">
         
-        <div className="flex items-center gap-12">
-          <h1 className="text-3xl font-semibold text-black">Exclusive</h1>
+        <div className="flex items-center p-5  gap-25">
+          <h1 className="text-2xl  font-semibold text-black">Exclusive</h1>
           <nav>
             <ul className="flex gap-8 text-gray-800 font-medium">
               <li><a href="#" className="hover:text-black">Home</a></li>
