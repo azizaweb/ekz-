@@ -1,11 +1,11 @@
-
-import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react-swc'
+
+// Не нужно импортировать @tailwindcss/vite
+// Tailwind настраивается через tailwind.config.js и postcss.config.js
+
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-    react()
-  ],
+  plugins: [react()],
 })
+
 
